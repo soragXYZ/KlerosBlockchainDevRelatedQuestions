@@ -3,17 +3,16 @@
 ## 1) Blockchain consensus
 What is:
 - Proof-of-Work?  
-- Proof-of-Stake?  
-- Proof-of-Authority?  
-- Proof-of-X? (with X being a consensus mechanism not previously explained)  
 
-- Proof-of-work (PoW) is a consensus mechanism used by blockchain networks to achieve distributed consensus. It is used to confirm transactions and produce new blocks to the chain.  
+Proof-of-work (PoW) is a consensus mechanism used by blockchain networks to achieve distributed consensus. It is used to confirm transactions and produce new blocks to the chain.  
 
 In a PoW-based blockchain, nodes compete to solve a complex mathematical problem, and the first one to solve it gets to add a new block to the chain and receives a reward for doing so. The process of solving the mathematical problem is computationally expensive, and requires significant amounts of computational power. The complexity of the problem is such that it can only be solved by brute force, meaning that it cannot be solved by any other means than trying many possible solutions. Because of this, it is very difficult to cheat the system.  
 
 The idea behind PoW is that it is costly to produce a new block and therefore, it prevents malicious actors from easily taking over the network by creating multiple blocks in quick succession. This ensures that the network remains decentralized and secure.  
 
-- Proof-of-stake (PoS) is an alternative consensus mechanism used by some blockchain networks to achieve distributed consensus. The nodes that are allowed to add new blocks to the chain are chosen based on their stake, or the amount of cryptocurrency they hold and are willing to lock up or "stake" as collateral.  
+- Proof-of-Stake?  
+
+Proof-of-stake (PoS) is an alternative consensus mechanism used by some blockchain networks to achieve distributed consensus. The nodes that are allowed to add new blocks to the chain are chosen based on their stake, or the amount of cryptocurrency they hold and are willing to lock up or "stake" as collateral.  
 
 The idea behind PoS is that, instead of expending energy to mine new blocks, nodes can validate transactions and add new blocks to the chain by holding and "staking" cryptocurrency. The more cryptocurrency a node holds and is willing to stake, the higher its chances of being chosen to add a new block to the chain.  
 
@@ -21,7 +20,9 @@ In PoS, there are validators who are chosen to create new blocks, and they are c
 
 One of the key benefits of PoS over PoW is that it is more energy efficient, since it doesn't require miners to perform computational work. This means that it is less costly to run a PoS-based blockchain network.  
 
-- Proof of Authority (PoA) is a consensus mechanism used by some blockchain networks to achieve distributed consensus. It is similar to Proof of Stake (PoS) in the sense that the nodes that are allowed to add new blocks to the chain are chosen based on their authority or reputation, rather than on the amount of cryptocurrency they hold and are willing to lock up.  
+- Proof-of-Authority?  
+
+Proof of Authority (PoA) is a consensus mechanism used by some blockchain networks to achieve distributed consensus. It is similar to Proof of Stake (PoS) in the sense that the nodes that are allowed to add new blocks to the chain are chosen based on their authority or reputation, rather than on the amount of cryptocurrency they hold and are willing to lock up.  
 
 In PoA, the validators are pre-selected and authorized by the network's governance or by a central authority, and they are responsible for validating transactions and creating new blocks. These validators are known, identifiable individuals or organizations that have been vetted and approved by the network's governance or central authority to ensure that they are trustworthy and reliable.  
 
@@ -29,7 +30,9 @@ PoA is used primarily in private or consortium blockchain networks, where the ne
 
 PoA networks are less decentralized than public networks like Bitcoin or Ethereum, but they are more suitable for use cases that require a high degree of trust, such as supply chain management, digital identity verification, and other enterprise use cases.  
 
-- Proof-of-X is a general term used to refer to any consensus mechanism that uses a specific method or rule to achieve distributed consensus. "X" can represent any consensus algorithm or rule, and it can be used to create new consensus mechanisms or to describe existing ones.  
+- Proof-of-X? (with X being a consensus mechanism not previously explained)  
+
+Proof-of-X is a general term used to refer to any consensus mechanism that uses a specific method or rule to achieve distributed consensus. "X" can represent any consensus algorithm or rule, and it can be used to create new consensus mechanisms or to describe existing ones.  
 
 
 ## 2) Hashes
