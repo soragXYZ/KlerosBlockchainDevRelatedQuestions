@@ -35,7 +35,7 @@ Assuming that n=5 and x_i in {0,1}. Is it possible for an external observer to d
 The widest path problem is the problem of finding a path between two designated vertices in a weighted graph, maximizing the weight of the minimum-weight edge in the path. (Wikipedia)  
 
 <p align="center">
-    <img src="graph.PNG">
+    <img src="./graph.PNG">
 </p>  
 
 In this graph, what is the widest path from E to A and what is its value?  
