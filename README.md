@@ -49,17 +49,21 @@ In the second step, party A reveals one of these values.  Note that at this poin
 
 What is the computational complexity of the reveal operation:  
 - For party A?  
+
+The computational complexity of the reveal operation is O(n)  
+
 - For every fullnode of the blockchain (this is linked to gas consumption)?  
 
-- **to do**  
-- **to do**  
+The computational complexity for every fullnode of the blockchain is O(n^2) 
 
 
-Can we use another data structure to reduce the computational complexity for every fullnode (when you want to reveal just 1 value), without increasing the complexity of the commit operation? If it is, what is this data structure and what would be the resulting complexity?  
+- Can we use another data structure to reduce the computational complexity for every fullnode (when you want to reveal just 1 value), without increasing the complexity of the commit operation? If it is, what is this data structure and what would be the resulting complexity?  
 
-**to do**  
+I do not know  
 
 Assuming that n=5 and x_i in {0,1}. Is it possible for an external observer to determine X from y_5 in the first step? If it is, how can we change the scheme to prevent it?  
+
+I do not know
 
 
 
@@ -72,7 +76,7 @@ The widest path problem is the problem of finding a path between two designated 
 
 In this graph, what is the widest path from E to A and what is its value?  
 
-**to do**  
+The widest path from E to A is: E -> D -> C -> B -> A and its value is 31 + 28 + 29 + 25 = 113  
 
 
 We have a graph with n vertices and m edges (with m>=n). We have multiple parties each having unlimited computational power, but the amount of operations we can do on the blockchain is limited (particularly due to gas cost and gas limit).  
@@ -81,14 +85,15 @@ We want to have the value of the widest path between two nodes, but we don’t w
 Design a mechanism to have the widest path and its value on the blockchain while maintaining on chain computation cost as low as possible.  
 We will assume there is at least one honest party which wants the result to be the widest path (but don’t assume the chain knows who is this honest party).  
 
-**to do**  
+I do not know  
 
 
 What is the computational complexity on chain (for 1 party)?  
-**to do**
+
+I do not know  
 
 
 ## 4) Game theory
 Name a strictly positive number. If you name the number which is the most named by all the candidates you succeed in this question.  
 
-- My answer is 1, because this is the smalleest integer greater than 0
+- My answer is 1, because this is the smallest integer greater than 0
